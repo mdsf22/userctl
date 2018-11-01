@@ -39,7 +39,7 @@ Flags:
 
 Global Flags:
       --admin string     ldap admin (default "cn=manager,dc=test,dc=com")
-      --adminPw string   ldap admin password (default "scutech")
+      --adminPw string   ldap admin password (default "123456")
       --baseDn string    ldap basedn (default "dc=test,dc=com")
       --url string       ldap address (default "127.0.0.1:389")
 ``` 
@@ -63,7 +63,7 @@ Flags:
 
 Global Flags:
       --admin string     ldap admin (default "cn=manager,dc=test,dc=com")
-      --adminPw string   ldap admin password (default "scutech")
+      --adminPw string   ldap admin password (default "123456")
       --baseDn string    ldap basedn (default "dc=test,dc=com")
       --url string       ldap address (default "127.0.0.1:389")
 ``` 
