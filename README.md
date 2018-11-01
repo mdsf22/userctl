@@ -3,11 +3,12 @@ Simple ldap tool to retrieve basic information and groups for a user.
 
 Usage:
   userctl [command]
-
+  
 Available Commands:
-
   group       group related commands
+  
   help        Help about any command
+  
   user        user related commands
 
 Flags:
