@@ -22,6 +22,7 @@ Flags:
 
 # user commands
 
+``` 
 Usage:
   userctl user [command]
 
@@ -41,9 +42,11 @@ Global Flags:
       --adminPw string   ldap admin password (default "scutech")
       --baseDn string    ldap basedn (default "dc=test,dc=com")
       --url string       ldap address (default "127.0.0.1:389")
+``` 
 
 # group commands
 
+``` 
 Usage:
   userctl group [command]
 
@@ -63,3 +66,4 @@ Global Flags:
       --adminPw string   ldap admin password (default "scutech")
       --baseDn string    ldap basedn (default "dc=test,dc=com")
       --url string       ldap address (default "127.0.0.1:389")
+``` 
