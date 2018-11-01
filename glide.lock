@@ -1,0 +1,30 @@
+hash: 7f47cd0410d0f5e8fe58cb5f7e415cef8ce85762db755a0b774a4da3a2a3c40e
+updated: 2018-10-31T16:08:03.1862876+08:00
+imports:
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/spf13/cobra
+  version: ef82de70bb3f60c65fb8eebacbb2d122ef517385
+- name: github.com/spf13/pflag
+  version: 298182f68c66c05229eb03ac171abe6e309ee79a
+- name: golang.org/x/crypto
+  version: 0709b304e793a5edb4a2c0145f281ecdc20838a4
+  repo: https://github.com/golang/crypto.git
+  subpackages:
+  - md4
+- name: golang.org/x/text
+  version: f21a4dfb5e38f5895301dc265a8def02365cc3d0
+  repo: https://github.com/golang/text.git
+  subpackages:
+  - encoding
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/unicode
+  - internal/utf8internal
+  - runes
+  - transform
+- name: gopkg.in/asn1-ber.v1
+  version: 379148ca0225df7a432012b8df0355c2a2063ac0
+- name: gopkg.in/ldap.v2
+  version: bb7a9ca6e4fbc2129e3db588a34bc970ffe811a9
+testImports: []

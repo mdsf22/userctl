@@ -1,0 +1,16 @@
+package: userctl
+import:
+- package: gopkg.in/ldap.v2
+  version: ^2.5.1
+- package: github.com/spf13/cobra
+- package: github.com/spf13/pflag
+  version: v1.0.3
+- package: golang.org/x/crypto
+  repo: https://github.com/golang/crypto.git
+  subpackages:
+  - md4
+- package: golang.org/x/text
+  version: ^0.3.0
+  repo: https://github.com/golang/text.git
+  subpackages:
+  - encoding
