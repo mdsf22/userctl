@@ -1,4 +1,4 @@
-userctl
+# userctl
 Simple ldap tool to retrieve basic information and groups for a user.
 
 Usage:
@@ -18,7 +18,7 @@ Flags:
   -h, --help             help for userctl
       --url string       ldap address (default "127.0.0.1:389")
 
-(1) user commands
+# user commands
 
 Usage:
   userctl user [command]
@@ -40,7 +40,8 @@ Global Flags:
       --baseDn string    ldap basedn (default "dc=test,dc=com")
       --url string       ldap address (default "127.0.0.1:389")
 
-(2) group commands
+# group commands
+
 Usage:
   userctl group [command]
 
