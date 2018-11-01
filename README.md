@@ -1,6 +1,7 @@
 # userctl
 Simple ldap tool to retrieve basic information and groups for a user.
 
+'''
 Usage:
   userctl [command]
   
@@ -17,6 +18,7 @@ Flags:
       --baseDn string    ldap basedn (default "dc=test,dc=com")
   -h, --help             help for userctl
       --url string       ldap address (default "127.0.0.1:389")
+'''
 
 # user commands
 
