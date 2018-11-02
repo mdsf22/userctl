@@ -1,5 +1,5 @@
 # userctl
-Simple ldap tool to retrieve basic information and groups for a user.
+Simple ldap tool to retrieve basic information(user, group).
 
 ``` 
 Usage:
